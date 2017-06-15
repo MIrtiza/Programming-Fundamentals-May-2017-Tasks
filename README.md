@@ -1,2 +1,2 @@
-# Tech-Module-May-2017-Homework
-Tasks from my homeworks.
+# Tech-Module-May-2017-Tasks
+Tasks from my works.
