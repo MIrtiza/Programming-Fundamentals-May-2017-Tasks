@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06.Max_Sequence_of_Equal_Elements
 {
@@ -10,7 +7,6 @@ namespace _06.Max_Sequence_of_Equal_Elements
     {
         static void Main(string[] args)
         {
-
             int[] sequance = Console.ReadLine()
                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                .Select(int.Parse)
