@@ -8,7 +8,7 @@ namespace _01.Largest_Common_End
         {
             string[] firstArray = Console.ReadLine().Split();
             string[] secondArray = Console.ReadLine().Split();
-
+            Console.WriteLine("calculating Small Array Length");
             int smallerArrayLenght = Math.Min(firstArray.Length, secondArray.Length);
 
             int leftCounter = CheckArrays(firstArray, secondArray, smallerArrayLenght);
